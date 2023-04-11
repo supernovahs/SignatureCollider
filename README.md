@@ -9,3 +9,10 @@ npm run collide <Proxy Contract Name> <Implementation contract Name >
 ```
 
 ## Add Your Proxy file and implementation file in respective folder
+
+
+## Requirements 
+
+#### Foundry 
+#### node
+
