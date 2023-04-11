@@ -1,0 +1,11 @@
+{
+  "name": "signaturecollision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "collide": "node index.js"
+  },
+  "author": "supernovahs.eth",
+  "license": "ISC"
+}

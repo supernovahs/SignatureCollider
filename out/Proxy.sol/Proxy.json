@@ -1,0 +1,261 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes16",
+          "name": "",
+          "type": "bytes16"
+        }
+      ],
+      "name": "collate_propagate_storage",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b5060b08061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806342966c6814602d575b600080fd5b604060383660046042565b506004600055565b005b600060208284031215605357600080fd5b81356fffffffffffffffffffffffffffffffff1981168114607357600080fd5b939250505056fea2646970667358221220a5bf6af5cfb8cae070edda353d9cd3aec700e5b7c111579a3d6689ba7124b2db64736f6c63430008120033",
+    "sourceMap": "0:110:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806342966c6814602d575b600080fd5b604060383660046042565b506004600055565b005b600060208284031215605357600080fd5b81356fffffffffffffffffffffffffffffffff1981168114607357600080fd5b939250505056fea2646970667358221220a5bf6af5cfb8cae070edda353d9cd3aec700e5b7c111579a3d6689ba7124b2db64736f6c63430008120033",
+    "sourceMap": "0:110:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;34:73;;;;;;:::i;:::-;-1:-1:-1;99:1:0;95;:5;34:73;;;14:306:1;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;168:23;;-1:-1:-1;;220:51:1;;210:62;;200:90;;286:1;283;276:12;200:90;309:5;14:306;-1:-1:-1;;;14:306:1:o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "collate_propagate_storage(bytes16)": "42966c68"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.18+commit.87f61d96\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes16\",\"name\":\"\",\"type\":\"bytes16\"}],\"name\":\"collate_propagate_storage\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Proxy.sol\":\"Proxy\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"src/Proxy.sol\":{\"keccak256\":\"0xef364224db76338cdf88b065b37dbe110e38891c5dec44ac1b258e0c77dc5e77\",\"urls\":[\"bzz-raw://457d6a584142276c10290313a4659ca2e69400b410acd71dedc8a9bf71a71053\",\"dweb:/ipfs/QmbSyJwjeEw2pi9rY7xARf6xdhHHzsUARDTVQscS1PYqQP\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.18+commit.87f61d96"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "bytes16",
+              "name": "",
+              "type": "bytes16"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "collate_propagate_storage"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/Proxy.sol": "Proxy"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/Proxy.sol": {
+        "keccak256": "0xef364224db76338cdf88b065b37dbe110e38891c5dec44ac1b258e0c77dc5e77",
+        "urls": [
+          "bzz-raw://457d6a584142276c10290313a4659ca2e69400b410acd71dedc8a9bf71a71053",
+          "dweb:/ipfs/QmbSyJwjeEw2pi9rY7xARf6xdhHHzsUARDTVQscS1PYqQP"
+        ],
+        "license": null
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/Proxy.sol",
+    "id": 14,
+    "exportedSymbols": {
+      "Proxy": [
+        13
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:110:0",
+    "nodes": [
+      {
+        "id": 13,
+        "nodeType": "ContractDefinition",
+        "src": "0:110:0",
+        "nodes": [
+          {
+            "id": 2,
+            "nodeType": "VariableDeclaration",
+            "src": "18:7:0",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "a",
+            "nameLocation": "24:1:0",
+            "scope": 13,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 1,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "18:4:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 12,
+            "nodeType": "FunctionDefinition",
+            "src": "34:73:0",
+            "nodes": [],
+            "body": {
+              "id": 11,
+              "nodeType": "Block",
+              "src": "85:22:0",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 9,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 7,
+                      "name": "a",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2,
+                      "src": "95:1:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "hexValue": "34",
+                      "id": 8,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "99:1:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_4_by_1",
+                        "typeString": "int_const 4"
+                      },
+                      "value": "4"
+                    },
+                    "src": "95:5:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 10,
+                  "nodeType": "ExpressionStatement",
+                  "src": "95:5:0"
+                }
+              ]
+            },
+            "functionSelector": "42966c68",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "collate_propagate_storage",
+            "nameLocation": "43:25:0",
+            "parameters": {
+              "id": 5,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 12,
+                  "src": "69:7:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes16",
+                    "typeString": "bytes16"
+                  },
+                  "typeName": {
+                    "id": 3,
+                    "name": "bytes16",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "69:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes16",
+                      "typeString": "bytes16"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "68:9:0"
+            },
+            "returnParameters": {
+              "id": 6,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "85:0:0"
+            },
+            "scope": 13,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Proxy",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          13
+        ],
+        "name": "Proxy",
+        "nameLocation": "9:5:0",
+        "scope": 14,
+        "usedErrors": []
+      }
+    ]
+  },
+  "id": 0
+}
