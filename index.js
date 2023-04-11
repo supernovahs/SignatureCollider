@@ -1,7 +1,7 @@
 const { spawn } = require('child_process');
 
-const cmd = spawn('forge', ['inspect','./src/Proxy.sol:Proxy', 'methods']);
-const imp = spawn('forge', ['inspect','./src/Implementation.sol:Implementation', 'methods']);
+const cmd = spawn('forge', ['inspect',`./src/Proxy.sol:${process.argv[2]}`, 'methods']);
+const imp = spawn('forge', ['inspect',`./src/Implementation.sol:${process.argv[3]}`, 'methods']);
 
 var GotProxyEvent = false;
 var GotImplementationEvent = false;
