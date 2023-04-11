@@ -4,7 +4,7 @@ Check signature collision between a proxy and implementation
 
 ## To run 
 
-``
+```
 npm run collide <Proxy Contract Name> <Implementation contract Name > 
 ```
 
